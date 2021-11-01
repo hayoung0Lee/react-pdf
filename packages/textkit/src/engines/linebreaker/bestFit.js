@@ -2,7 +2,7 @@
 const INFINITY = 10000;
 
 const getNextBreakpoint = (subnodes, widths, lineNumber) => {
-  let position = null;
+  let position = 1;
   let minimumBadness = Infinity;
 
   const sum = { width: 0, stretch: 0, shrink: 0 };

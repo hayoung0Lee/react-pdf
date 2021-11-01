@@ -22,6 +22,8 @@ export const PDFViewer = ({
     ? `${instance.url}#toolbar=${showToolbar ? 1 : 0}`
     : null;
 
+  // console.log('Pdf viewer');
+
   return (
     <iframe
       src={src}
